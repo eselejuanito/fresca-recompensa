@@ -1,0 +1,29 @@
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="date"],
+input[type="time"] {
+  border: none;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px #2196f3;
+}
+
+.background-layer svg:hover #E4 {
+   fill: #6A4E3B;
+}
+
+.background-layer svg * {
+   transition: fill 1s ease;
+}
