@@ -12,7 +12,7 @@ from selenium.common.exceptions import TimeoutException
 def process_code(code, day, month, year, hour, minute, meridian):
     # Especificar que se quiere usar HtmlUnit como navegador
     options = Options()
-    #options.add_argument('--headless')
+    options.add_argument('--headless')
     options.add_argument('--disable-gpu')
     options.add_argument('--disable-extensions')
     options.add_argument('--disable-images')
