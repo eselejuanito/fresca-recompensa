@@ -5,15 +5,26 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
 
 
 def process_code(code, day, month, year, hour, minute, meridian):
     # Especificar que se quiere usar HtmlUnit como navegador
     options = Options()
-    options.headless = True
-    driver = webdriver.Firefox(options=options)
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--disable-extensions')
+    options.add_argument('--disable-images')
+    options.add_argument('--disable-popup-blocking')
+    options.add_argument('--disable-plugins-discovery')
+    options.add_argument('--disable-infobars')
+    options.add_argument('--disable-notifications')
+    options.add_argument('--disable-web-security')
+    options.add_argument('--disable-site-isolation-trials')
+
+    # Crear una instancia del controlador
+    driver = webdriver.Chrome(options=options)
     wait = WebDriverWait(driver, 2)
 
     driver.get("https://nu.globaldqfeedback.com/mex")
