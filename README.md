@@ -6,6 +6,11 @@ Automated DQ Survey Resolver and Free Ice Cream Code Generator
 
 This project aims to automate the process of resolving a Dairy Queen (DQ) survey in order to obtain a free ice cream code. It utilizes Python, Selenium, and Flask to create a web application that streamlines the survey completion process and generates a code for a complimentary ice cream.
 
+## Video
+[Full Video with explanation](https://youtu.be/pq5JZ5I7wEE)
+
+[Short Video about the Project](https://youtube.com/shorts/X0r9R863r9M)
+
 ## Table of Contents
 
 - [Features](#features)
