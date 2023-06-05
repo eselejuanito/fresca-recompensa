@@ -8,7 +8,6 @@ This project aims to automate the process of resolving a Dairy Queen (DQ) survey
 
 ![git_nieve_AdobeExpress](https://github.com/eselejuanito/fresca-recompensa/assets/10732249/0abf8a46-75ff-47ef-9828-dd99259eed59)
 
-
 ## Video
 [Full Video with explanation](https://youtu.be/pq5JZ5I7wEE)
 
@@ -102,5 +101,5 @@ Contributions to this project are welcome. To contribute, please follow these st
 
 For any questions, suggestions, or feedback, please feel free to contact me at [eselejuanito](https://linktr.ee/eselejuanito).
 
----
-Remember to customize the content to fit your specific project. Also, don't forget to update the dependencies and version numbers in the prerequisites section. Good luck with your project!
+For help me 💰:
+paypal.me/eselejuanito
